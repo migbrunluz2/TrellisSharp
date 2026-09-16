@@ -1,17 +1,14 @@
-VineSharp
+TrellisSharp
 =========
 
-Wrapper for the undocumented Vine API. Since it is undocumented, it is also unsupported and is subject to change. This library is not intended for production use.
+Wrapper for the Trellis API. Since it is undocumented, it is also unsupported and is subject to change. This library is not intended for production use (Technically yesnt,but still.. use it at your risk).
 
-https://www.nuget.org/packages/VineSharp/
+https://www.nuget.org/packages/VineSharp/ # dead
 
 
 Getting Started
----------------
-
-    Install-Package VineSharp
-
-Since Vine does not provide public OAuth for Apps, a username and password are required to obtain a valid token.
+---------------    
+Since Trellis needs a username and password are required to obtain a valid token.
 
     var vineClient = new VineClient(Username, Password);
     
